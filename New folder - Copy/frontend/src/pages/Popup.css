@@ -1,0 +1,39 @@
+.popup-container {
+    text-align: center;
+    z-index: 999;
+  }
+  
+  .popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+  }
+  
+  .popup-content {
+    position: relative;
+  }
+  
+  .close {
+    position: absolute;
+    top: -14px;
+    right: -11px;
+    cursor: pointer;
+  }
+
+  .label{
+    background-color: black;
+  }
+  
+  .add-btn{
+    background: #272728;
+  }
+
+  .add-btn:hover{
+    background: #202020;
+  }

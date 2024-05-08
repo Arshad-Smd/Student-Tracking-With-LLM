@@ -1,0 +1,102 @@
+#root ,
+body{
+    background-color: #2b2b2d;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+
+.login-container{
+    width: 150vh;
+    height: 85vh;
+    border: 1px solid #000;
+    box-shadow: 0 0 5px 2px rgba(89, 87, 87, 0.819);
+    background-color: #1c1c1c;
+    border-radius: 5px;
+}
+
+.heading{
+    text-align: center;
+    font-size: 3rem;
+    margin:2rem 0;
+    padding: 18px 0; 
+    color: #f5d165;
+    background-color: #1c1c1c;
+}
+
+.sub-heading{
+    text-align: center;
+    font-size: 2rem; 
+    color: #f5d165;
+    margin: 2rem 0;
+    margin-top: 3rem;
+    background-color: #1c1c1c;
+}
+
+.login-details{
+    width: 100%;
+    height: 55vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0;
+    background-color: #1c1c1c;
+}
+
+.user-details , 
+.admin-details{
+    background-color: #000;
+    margin: 1.5rem;
+}
+
+.user-login{
+    width: 48%;
+    height: 50vh;
+    border-right: 1px solid black;
+    background-color: #000;
+}
+
+.admin-login{
+    width: 48%;
+    height: 50vh;
+    border-left: 1px solid black;
+    background-color: #000;
+}
+
+label{
+    font-size: 1.6rem;
+    margin: 1rem 0;
+    margin-right: .7rem;
+    color: rgb(201, 201, 201);
+    background-color: #1c1c1c;
+}
+
+input{
+    width: 60%;
+    height: 2rem;
+    margin: 1rem 0;
+    padding:.5rem;
+    font-size: 1rem;
+    border-radius: 8px;
+    color: white;
+    border: 1px solid #000;
+}
+
+.btn-login{
+    width: 40%;
+    height: 2.5rem;
+    margin: 1rem 0;
+    background-color: #000;
+}
+
+button:hover{
+    background-color: #000;
+}
+
+a{
+    background: #1c1c1c;
+}
